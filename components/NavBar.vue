@@ -1,17 +1,16 @@
 <template>
-
-  <header class="sticky top0">
-    <div class="bg-green-500 text-black">
-      <nav>
-        <NuxtLink to="/" class="">Home</NuxtLink>
-
-        <NuxtLink to="/" class="">Blog</NuxtLink>
-
-        <NuxtLink to="/" class="">Project</NuxtLink>
-
-        <NuxtLink to="/" class="">About</NuxtLink>
-      </nav>
-    </div>
-  </header>
-
-</template
+  <nav>
+    <ul class="flex flex-col md:flex-row md:space-x-4 ">
+      <li>
+        <NuxtLink to="/" class="text-2xl md:text-base p1 color-hover" active-class="color-active">
+          Home
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="#blog" class="text-2xl md:text-base p1 color-hover" active-class="color-active">
+          Blog
+        </NuxtLink>
+      </li>
+    </ul>
+  </nav>
+</template>
