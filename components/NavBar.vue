@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <ul class="flex flex-col md:flex-row md:space-x-4 ">
+    <ul class="theNav">
       <li>
-        <NuxtLink to="/" class="text-2xl md:text-base p1 color-hover" active-class="color-active">
+        <NuxtLink to="/" class="NuxtLinks" active-class="color-active">
           Home
         </NuxtLink>
       </li>
@@ -14,3 +14,27 @@
     </ul>
   </nav>
 </template>
+<style scoped>
+.theNav {
+  display: flex;
+  flex-direction: column;
+}
+
+.NuxtLinks {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 1rem;
+}
+
+.NuxtLinks:hover {
+  color: blue;
+}
+
+
+@media screen and (min-width: 768px) {
+  .theNav {
+    flex-direction: row;
+    margin-left: 1rem;
+  }
+}
+</style>
