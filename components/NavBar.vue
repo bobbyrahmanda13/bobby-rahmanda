@@ -1,19 +1,23 @@
 <template>
   <nav>
     <ul class="theNav">
+
       <li>
         <NuxtLink to="/" class="NuxtLinks" active-class="color-active">
           Home
         </NuxtLink>
       </li>
+
       <li>
         <NuxtLink to="#blog" class="text-2xl md:text-base p1 color-hover" active-class="color-active">
           Blog
         </NuxtLink>
       </li>
+
     </ul>
   </nav>
 </template>
+
 <style scoped>
 .theNav {
   display: flex;
