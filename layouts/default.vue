@@ -1,14 +1,16 @@
 <template>
   <div class="container mx-auto">
 
-    <header class="">
-          <NuxtLink to="/" class="text-xl font-semibold p2 hover:bg-gray-200 dark:hover:bg-gray-700 hover:rounded">Bobby
-            Rahmanda</NuxtLink>
+    <header
+      class="px-12 py me-auto m-be-0 m-bs-0 flex justify-between items-center text-white sticky z-1000 position-top-none bg-color-base">
 
-        <NavBar />
+      <NuxtLink to="/" class="fw-bold">Bobby Rahmanda</NuxtLink>
+
+      <NavBar />
+
     </header>
 
-    <main class="mt-[30px]">
+    <main class="">
       <slot />
     </main>
 

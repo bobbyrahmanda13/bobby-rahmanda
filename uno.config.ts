@@ -15,7 +15,9 @@ export default defineConfig({
   ],
   theme: {
     colors: {
-      // ...
+      'colorBase':'#121C25',
+      'colorOne':'#162533',
+      'colorTwo':'#33CCFF ',
     }
   },
   presets: [
