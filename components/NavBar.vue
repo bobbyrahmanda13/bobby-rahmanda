@@ -1,13 +1,13 @@
 <template>
   <nav>
-    <ul class="">
+    <ul class="flex gap-2rem list-none">
 
       <li>
-        <NuxtLink to="/">Home</NuxtLink>
+        <NuxtLink to="/" class="fw-bold hover:text-colorTwo">Home</NuxtLink>
       </li>
 
       <li>
-        <NuxtLink to="#blog">Blog</NuxtLink>
+        <NuxtLink to="/" class="fw-bold hover:text-colorTwo">Blog</NuxtLink>
       </li>
 
     </ul>

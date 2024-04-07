@@ -4,6 +4,8 @@ html{
 
 body{
   height:100vh;
---uno:bg-color-base;
+  background-size:cover;
+  backgroud-position:center;
+  --uno:bg-color-base;
 }
 
