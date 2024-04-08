@@ -1,7 +1,7 @@
 <template>
 
     <header
-      class="md:hidden fixed z-1000 w-100% px-12 py-1rem me-auto m-bs-0 m-be-0 flex justify-between items-center position-bottom-none backdrop-blur-md">
+      class="md:hidden w-100% fixed z-1000 px-12 py-1rem me-auto m-bs-0 m-be-0 flex justify-between items-center position-bottom-none backdrop-blur-md">
 
       <NuxtLink to="/" class="fw-bold list-none decoration-none font-size-none text-colorText hover:text-colorTwo">
         Rahman
