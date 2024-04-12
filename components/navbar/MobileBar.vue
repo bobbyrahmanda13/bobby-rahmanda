@@ -1,42 +1,42 @@
 <template>
 
-  <footer class="header-class">
+  <header class="header-class">
 
-    <NuxtLink to="/" class="logos">
+    <NuxtLink to="/" class="logo">
       Rahman
     </NuxtLink>
 
     <nav>
 
-      <ul class="flex gap-2rem list-none items-center">
+      <ul class="ul-nav">
 
         <li>
-          <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">Home</NuxtLink>
+          <NuxtLink to="/" class="li-class" active-class="text-colorTwo">Home</NuxtLink>
         </li>
 
         <li>
-          <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">Blog</NuxtLink>
+          <NuxtLink to="/" class="li-class" active-class="text-colorTwo">Blog</NuxtLink>
         </li>
 
         <!-- <li> -->
         <!--   <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink> -->
         <!-- </li> -->
 
-        <li class="flex justify-between items-center">
-          <NuxtLink to="https://github.com/bobbyrahmanda13"
-            class="mx-0.5rem text-lg text-colorText hover:text-colorTwo">
+        <li class="li-icons">
+          <NuxtLink to="https://github.com/bobbyrahmanda13" class="link-icons-list">
             <div class="i-bi-github" />
           </NuxtLink>
-          <NuxtLink to="https://t.me/Rahman_0000" class="mx-0.5rem text-lg text-colorText hover:text-colorTwo">
+          <NuxtLink to="https://t.me/Rahman_0000" class="link-icons-list">
             <div class="i-logos-telegram" />
           </NuxtLink>
         </li>
 
       </ul>
     </nav>
-  </footer>
+  </header>
 
 </template>
+
 <style scoped>
 .header-class {
   width: 100%;
@@ -53,19 +53,55 @@
   backdrop-filter: blur(12px);
 }
 
-.logos {
+.logo {
   font-weight: bold;
   list-style: none;
   text-decoration: none;
   color: #c8d7e4;
 }
 
-.logos:hover {
+.logo:hover {
   color: #33CCFF;
 }
+
+.ul-nav {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  align-items: center;
+}
+
+.li-class {
+  color: #c8d7e4;
+}
+
+.li-class:hover {
+  color: #33ccff;
+}
+
+.li-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-icons-list {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color:#c8d7e4;
+}
+
+.link-icons-list:hover {
+  color: #33ccff;
+}
+
 @media (width >=768px) {
+
   .header-class {
     display: none;
   }
+
 }
 </style>
