@@ -40,7 +40,6 @@
 </template>
 <style scoped>
 .header-class header {
-
   width: 100%;
   z-index: 1000;
   position: fixed;
@@ -61,4 +60,5 @@
     display: hidden;
   }
 }
+
 </style>
