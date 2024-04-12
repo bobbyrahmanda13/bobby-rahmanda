@@ -1,7 +1,6 @@
 <template>
 
-  <header
-    class="header-class">
+  <footer class="header-class">
 
     <NuxtLink to="/" class="fw-bold list-none decoration-none font-size-none text-colorText hover:text-colorTwo">
       Rahman
@@ -35,11 +34,11 @@
 
       </ul>
     </nav>
-  </header>
+  </footer>
 
 </template>
 <style scoped>
-.header-class header {
+.header-class {
   width: 100%;
   z-index: 1000;
   position: fixed;
@@ -50,15 +49,13 @@
   justify-content: space-between;
   align-items: center;
   bottom: 0;
-  --backdrop-blur: blur(12px);
-  -webkit-backdrop-filter: var(--backdrop-blur);
-  backdrop-filter: var(--backdrop-blur);
+  -webkit-backdrop-filter: blue(12px);
+  backdrop-filter: blur(12px);
 }
 
-@media screen and (width >=768px) {
-  .header-class header {
-    display: hidden;
+@media (width >=768px) {
+  .header-class {
+    display: none;
   }
 }
-
 </style>
