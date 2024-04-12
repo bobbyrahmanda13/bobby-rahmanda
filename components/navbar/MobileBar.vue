@@ -11,11 +11,11 @@
       <ul class="ul-nav">
 
         <li>
-          <NuxtLink to="/" class="li-class" active-class="text-colorTwo">Home</NuxtLink>
+          <NuxtLink to="/" class="li-class" active-class="li-active">Home</NuxtLink>
         </li>
 
         <li>
-          <NuxtLink to="/" class="li-class" active-class="text-colorTwo">Blog</NuxtLink>
+          <NuxtLink to="/blog" class="li-class" active-class="li-active">Blog</NuxtLink>
         </li>
 
         <!-- <li> -->
@@ -23,10 +23,10 @@
         <!-- </li> -->
 
         <li class="li-icons">
-          <NuxtLink to="https://github.com/bobbyrahmanda13" class="link-icons-list">
+          <NuxtLink to="https://github.com/bobbyrahmanda13" target="_blank" class="link-icons-list">
             <div class="i-bi-github" />
           </NuxtLink>
-          <NuxtLink to="https://t.me/Rahman_0000" class="link-icons-list">
+          <NuxtLink to="https://t.me/Rahman_0000" target="_blank" class="link-icons-list">
             <div class="i-logos-telegram" />
           </NuxtLink>
         </li>
@@ -95,6 +95,9 @@
 
 .link-icons-list:hover {
   color: #33ccff;
+}
+.li-active{
+  color:#33ccff
 }
 
 @media (width >=768px) {
