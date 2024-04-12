@@ -1,13 +1,13 @@
-:root{
-  font-family:Roboto,sans-serif;
+:root {
+  font-family: Roboto, sans-serif;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
-body{
-  height:100vh;
-  background-size:cover;
-  --uno:bg-color-base;
+body {
+  height: 100vh;
+  background-size: cover;
+  --uno: bg-color-base;
 }
-

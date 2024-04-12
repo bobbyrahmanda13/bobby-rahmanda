@@ -19,9 +19,9 @@
             <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">Blog</NuxtLink>
           </li>
 
-          <li>
-            <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink>
-          </li>
+          <!-- <li> -->
+          <!--   <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink> -->
+          <!-- </li> -->
 
           <li class="flex justify-between items-center">
             <NuxtLink to="https://github.com/bobbyrahmanda13"

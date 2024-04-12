@@ -2,7 +2,7 @@
 
   <footer class="header-class">
 
-    <NuxtLink to="/" class="fw-bold list-none decoration-none font-size-none text-colorText hover:text-colorTwo">
+    <NuxtLink to="/" class="logos">
       Rahman
     </NuxtLink>
 
@@ -18,9 +18,9 @@
           <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">Blog</NuxtLink>
         </li>
 
-        <li>
-          <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink>
-        </li>
+        <!-- <li> -->
+        <!--   <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink> -->
+        <!-- </li> -->
 
         <li class="flex justify-between items-center">
           <NuxtLink to="https://github.com/bobbyrahmanda13"
@@ -53,6 +53,16 @@
   backdrop-filter: blur(12px);
 }
 
+.logos {
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  color: #c8d7e4;
+}
+
+.logos:hover {
+  color: #33CCFF;
+}
 @media (width >=768px) {
   .header-class {
     display: none;
