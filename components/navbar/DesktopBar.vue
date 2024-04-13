@@ -38,7 +38,7 @@
 </template>
 <style scoped>
 .header-class {
-  width: 100%;
+  width: auto;
   z-index: 1000;
   display: none;
   position: sticky;

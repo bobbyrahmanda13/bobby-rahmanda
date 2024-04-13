@@ -39,7 +39,7 @@
 
 <style scoped>
 .header-class {
-  width: 100%;
+  width: auto;
   z-index: 1000;
   position: fixed;
   padding: 1rem 3rem;
