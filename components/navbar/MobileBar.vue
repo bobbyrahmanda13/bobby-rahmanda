@@ -100,7 +100,7 @@
   color:#33ccff
 }
 
-@media (width >=768px) {
+@media (width >= 768px) {
 
   .header-class {
     display: none;
