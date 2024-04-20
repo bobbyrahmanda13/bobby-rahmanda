@@ -10,15 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue": "^3.4.23",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.199",
+    "@iconify/json": "^2.2.202",
     "@nuxt/content": "^2.12.1",
     "@nuxt/fonts": "^0.6.1",
     "@nuxtjs/sitemap": "^5.1.4",
-    "@unocss/nuxt": "^0.59.1",
+    "@unocss/nuxt": "^0.59.4",
     "@vueuse/nuxt": "^10.9.0",
     "nuxt": "^3.11.2"
   }

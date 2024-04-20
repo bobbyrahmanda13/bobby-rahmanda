@@ -39,7 +39,7 @@
 
 <style scoped>
 .header-class {
-  width: auto;
+  width: 100%;
   z-index: 1000;
   position: fixed;
   padding: 1rem 3rem;
@@ -58,10 +58,10 @@
   list-style: none;
   text-decoration: none;
   color: #c8d7e4;
-}
 
-.logo:hover {
-  color: #33CCFF;
+  &:hover{
+    color: #33CCFF;
+  }
 }
 
 .ul-nav {
@@ -73,10 +73,9 @@
 
 .li-class {
   color: #c8d7e4;
-}
-
-.li-class:hover {
-  color: #33ccff;
+  &:hover{
+    color: #33ccff;
+  }
 }
 
 .li-icons {
@@ -91,11 +90,12 @@
   font-size: 1.125rem;
   line-height: 1.75rem;
   color:#c8d7e4;
+
+  &:hover{
+    color: #33ccff;
+  }
 }
 
-.link-icons-list:hover {
-  color: #33ccff;
-}
 .li-active{
   color:#33ccff
 }
