@@ -4,8 +4,8 @@ export default defineNuxtConfig({
   modules: [
     "@vueuse/nuxt",
     "@nuxt/content",
-    "@unocss/nuxt",
     "@nuxt/fonts",
-    "@nuxtjs/sitemap"
+    "@nuxtjs/sitemap",
+    "@unocss/nuxt"
   ],
 })

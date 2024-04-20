@@ -1,10 +1,11 @@
 <template>
 
-  <NavBar />
+    
+    <NavBar />
 
-  <main class="container">
-    <slot />
-  </main>
+    <main class="container">
+      <slot />
+    </main>
 
   <!-- <footer> -->
   <!-- </footer> -->
@@ -14,7 +15,9 @@
 
 .container {
   width: 100%;
-  margin: 1rem auto;
+  max-width: 960px;
+  margin: 0rem auto;
+  padding:1rem;
 }
 
 @media (width >= 640px) {
