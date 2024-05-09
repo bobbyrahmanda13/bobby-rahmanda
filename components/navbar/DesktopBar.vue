@@ -54,10 +54,10 @@
   font-weight: bold;
   list-style: none;
   text-decoration: none;
-  color: #c8d7e4;
+  color: #DECF93;
 
-  &:hover{
-  color: #33CCFF;
+  &:hover {
+    color: #DECF93;
   }
 }
 
@@ -69,10 +69,11 @@
 }
 
 .li-class {
-  color: #c8d7e4;
+  color: #DECF93;
+  font-weight: bold;
 
-  &:hover{
-    color: #33ccff;
+  &:hover {
+    color: #D4625E;
   }
 }
 
@@ -87,16 +88,17 @@
   margin-right: 0.5rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color: #c8d7e4;
+  color: #DECF93;
 
   &:hover {
-    color: #33ccff;
+    color: #D4625E;
   }
 }
 
 
 .li-active {
-  color: #33ccff
+  color: #D4625E;
+  font-weight: bold;
 }
 
 @media screen and (width >=768px) {

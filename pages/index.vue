@@ -5,6 +5,6 @@
 </template>
 <style scoped>
 .text-white{
-  color:#c8d7e4;
+  color:#DECF93;
 }
 </style>

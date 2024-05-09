@@ -15,8 +15,8 @@ export default defineConfig({
   ],
   theme: {
     colors: {
-      'colorBase': '#121C25',
-      'colorOne': '#162533',
+      'colorBase': '#041419',
+      'colorFont': '#DECF93',
       'colorTwo': '#33CCFF',
       'colorText': '#c8d7e4',
     }

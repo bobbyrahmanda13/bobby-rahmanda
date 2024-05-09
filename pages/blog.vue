@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h1>ini blog</h1>
+    <h1 class="text-colorFont">ini blog</h1>
   </div>
 </template>
