@@ -3,9 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@vueuse/nuxt",
-    "@nuxt/content",
     "@nuxt/fonts",
-    "@nuxtjs/sitemap",
-    "@unocss/nuxt"
+    "nuxt-icon"
   ],
 })
