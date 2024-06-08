@@ -16,20 +16,20 @@
           </li>
 
           <li>
-            <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">Blog</NuxtLink>
+            <NuxtLink to="/about" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink>
           </li>
 
-          <li>
-            <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink>
-          </li>
+          <!-- <li> -->
+          <!--   <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink> -->
+          <!-- </li> -->
 
           <li class="flex justify-between items-center">
             <NuxtLink to="https://github.com/bobbyrahmanda13"
               class="mx-0.5rem text-lg text-colorText hover:text-colorTwo">
-              <div class="i-bi-github" />
+              <Icon name="i-bi-github" />
             </NuxtLink>
             <NuxtLink to="https://t.me/Rahman_0000" class="mx-0.5rem text-lg text-colorText hover:text-colorTwo">
-              <div class="i-logos-telegram" />
+              <Icon name="i-logos-telegram" />
             </NuxtLink>
           </li>
 

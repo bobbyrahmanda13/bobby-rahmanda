@@ -12,23 +12,23 @@
         <ul class="flex gap-2rem list-none items-center">
 
           <li>
-            <NuxtLink to="/" class="text-color-text hover:text-colorTwo" active-class="text-colorTwo">Home</NuxtLink>
+            <NuxtLink to="/" class="text-blue hover:text-colorTwo" active-class="text-colorTwo">Home</NuxtLink>
           </li>
 
           <!-- <li> -->
-          <!--   <NuxtLink to="/" class="text-color-text hover:text-colorTwo" active-class="text-colorTwo">Blog</NuxtLink> -->
+          <!--   <NuxtLink to="/" class="text-white hover:text-colorTwo" active-class="text-colorTwo">Blog</NuxtLink> -->
           <!-- </li> -->
 
           <li>
-            <NuxtLink to="/about" class="text-color-text hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink>
+            <NuxtLink to="/about" class="text-blue hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink>
           </li>
 
           <li class="flex justify-between items-center">
             <NuxtLink to="https://github.com/bobbyrahmanda13"
-              class="mx-0.5rem text-lg text-color-text hover:text-colorTwo">
+              class="mx-0.5rem text-lg text-white hover:text-colorTwo">
           <Icon name="i-bi-github" />
             </NuxtLink>
-            <NuxtLink to="https://t.me/Rahman_0000" class="mx-0.5rem text-lg text-color-text hover:text-colorTwo">
+            <NuxtLink to="https://t.me/Rahman_0000" class="mx-0.5rem text-lg text-white hover:text-colorTwo">
               <Icon name="i-logos-telegram" />
             </NuxtLink>
           </li>
