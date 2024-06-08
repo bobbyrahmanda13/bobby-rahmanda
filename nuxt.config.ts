@@ -1,9 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   modules: [
-    "@vueuse/nuxt",
+    "@vueuse/nuxt", 
     "@nuxt/fonts",
-    "nuxt-icon"
+    "nuxt-icon",
+    "@unocss/nuxt"
   ],
 })
