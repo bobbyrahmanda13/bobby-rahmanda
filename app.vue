@@ -5,8 +5,8 @@
 </template>
 
 <script setup lang="ts">
-import './assets/css/base.css'
 import '@unocss/reset/tailwind.css'
+import './styles/base.css'
 
 </script>
 

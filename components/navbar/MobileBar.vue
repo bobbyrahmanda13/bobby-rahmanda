@@ -1,110 +1,40 @@
 <template>
 
-  <header class="header-class">
+    <header
+      class="md:hidden fixed z-1000 w-100% px-12 py-1rem me-auto m-bs-0 m-be-0 flex justify-between items-center position-bottom-none backdrop-blur-md">
 
-    <NuxtLink to="/" class="logo">
-      Rahman
-    </NuxtLink>
+      <NuxtLink to="/" class="fw-bold list-none decoration-none font-size-none text-colorText hover:text-colorTwo">
+        Rahman
+      </NuxtLink>
 
-    <nav>
+      <nav>
 
-      <ul class="ul-nav">
+        <ul class="flex gap-2rem list-none items-center">
 
-        <li>
-          <NuxtLink to="/" class="li-class" active-class="li-active">Home</NuxtLink>
-        </li>
+          <li>
+            <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">Home</NuxtLink>
+          </li>
 
-        <li>
-          <NuxtLink to="/blog" class="li-class" active-class="li-active">Blog</NuxtLink>
-        </li>
+          <li>
+            <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">Blog</NuxtLink>
+          </li>
 
-        <!-- <li> -->
-        <!--   <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink> -->
-        <!-- </li> -->
+          <li>
+            <NuxtLink to="/" class="text-colorText hover:text-colorTwo" active-class="text-colorTwo">About</NuxtLink>
+          </li>
 
-        <li class="li-icons">
-          <NuxtLink to="https://github.com/bobbyrahmanda13" target="_blank" class="link-icons-list">
-            <div class="i-bi-github" />
-          </NuxtLink>
-          <NuxtLink to="https://t.me/Rahman_0000" target="_blank" class="link-icons-list">
-            <div class="i-logos-telegram" />
-          </NuxtLink>
-        </li>
+          <li class="flex justify-between items-center">
+            <NuxtLink to="https://github.com/bobbyrahmanda13"
+              class="mx-0.5rem text-lg text-colorText hover:text-colorTwo">
+              <div class="i-bi-github" />
+            </NuxtLink>
+            <NuxtLink to="https://t.me/Rahman_0000" class="mx-0.5rem text-lg text-colorText hover:text-colorTwo">
+              <div class="i-logos-telegram" />
+            </NuxtLink>
+          </li>
 
-      </ul>
-    </nav>
-  </header>
+        </ul>
+      </nav>
+    </header>
 
 </template>
-
-<style scoped>
-.header-class {
-  width: 100%;
-  z-index: 1000;
-  position: fixed;
-  padding: 1rem 3rem;
-  margin-inline: auto;
-  margin-block: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  bottom: 0;
-  -webkit-backdrop-filter: blue(12px);
-  backdrop-filter: blur(12px);
-}
-
-.logo {
-  font-weight: bold;
-  list-style: none;
-  text-decoration: none;
-  color: #c8d7e4;
-
-  &:hover{
-    color: #33CCFF;
-  }
-}
-
-.ul-nav {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-  align-items: center;
-}
-
-.li-class {
-  color: #c8d7e4;
-  &:hover{
-    color: #33ccff;
-  }
-}
-
-.li-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.link-icons-list {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  color:#c8d7e4;
-
-  &:hover{
-    color: #33ccff;
-  }
-}
-
-.li-active{
-  color:#33ccff
-}
-
-@media (width >= 768px) {
-
-  .header-class {
-    display: none;
-  }
-
-}
-</style>

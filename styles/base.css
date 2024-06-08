@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+  --uno: bg-color-base;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 50px);
+}
+
+/* .dark { */
+/*   color-scheme: dark; */
+/* } */
+
+* {
+  min-width: 0;
+}
