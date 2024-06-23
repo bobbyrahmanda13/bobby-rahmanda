@@ -8,5 +8,5 @@
 import '@unocss/reset/tailwind.css'
 import './styles/base.css'
 
-</script>
 
+</script>
